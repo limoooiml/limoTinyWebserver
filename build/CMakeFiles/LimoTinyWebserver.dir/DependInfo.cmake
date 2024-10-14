@@ -1,0 +1,33 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/limo/limoTinyWebserver/main.cpp" "/home/limo/limoTinyWebserver/build/CMakeFiles/LimoTinyWebserver.dir/main.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
+  "../include/server"
+  "../include/http"
+  "../include/log"
+  "../include/buffer"
+  "../include/pool"
+  "../include/timer"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/limo/limoTinyWebserver/build/src/server/CMakeFiles/server.dir/DependInfo.cmake"
+  "/home/limo/limoTinyWebserver/build/src/http/CMakeFiles/http.dir/DependInfo.cmake"
+  "/home/limo/limoTinyWebserver/build/src/pool/CMakeFiles/pool.dir/DependInfo.cmake"
+  "/home/limo/limoTinyWebserver/build/src/timer/CMakeFiles/timer.dir/DependInfo.cmake"
+  "/home/limo/limoTinyWebserver/build/src/log/CMakeFiles/log.dir/DependInfo.cmake"
+  "/home/limo/limoTinyWebserver/build/src/buffer/CMakeFiles/buffer.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

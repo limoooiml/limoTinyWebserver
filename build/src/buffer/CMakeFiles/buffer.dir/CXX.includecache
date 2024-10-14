@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/buffer/buffer.h
+cstring
+-
+iostream
+-
+unistd.h
+-
+sys/uio.h
+-
+vector
+-
+atomic
+-
+assert.h
+-
+
+/home/limo/limoTinyWebserver/src/buffer/buffer.cpp
+buffer.h
+/home/limo/limoTinyWebserver/src/buffer/buffer.h
+

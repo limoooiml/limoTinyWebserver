@@ -1,0 +1,24 @@
+2024-09-29 20:30:56.776254 [info] : ========== Server init ==========
+2024-09-29 20:30:56.776285 [info] : Listen Mode: LT, OpenConn Mode: LT
+2024-09-29 20:30:56.776290 [info] : LogSys level: 1
+2024-09-29 20:30:56.776293 [info] : srcDir: (null)
+2024-09-29 20:30:56.776296 [info] : SqlConnPool num: 32, ThreadPool num: 24
+2024-09-29 20:30:56.798521 [info] : Server port:1316
+2024-09-29 20:30:56.798611 [info] : ========== Server start ==========
+2024-09-29 20:31:00.151520 [info] : Client[43](127.0.0.1:38628) in, userCount:1
+2024-09-29 20:31:00.151636 [info] : Client[43] in!
+2024-09-29 20:31:00.151800 [info] : Client[44](127.0.0.1:39652) in, userCount:2
+2024-09-29 20:31:00.152053 [info] : Client[44] in!
+2024-09-29 20:31:00.414060 [info] : Client[45](127.0.0.1:43236) in, userCount:3
+2024-09-29 20:31:32.497423 [info] : ========== Server init ==========
+2024-09-29 20:31:32.497453 [info] : Listen Mode: ET, OpenConn Mode: LT
+2024-09-29 20:31:32.497458 [info] : LogSys level: 1
+2024-09-29 20:31:32.497461 [info] : srcDir: (null)
+2024-09-29 20:31:32.497464 [info] : SqlConnPool num: 32, ThreadPool num: 24
+2024-09-29 20:31:32.511181 [info] : Server port:1316
+2024-09-29 20:31:32.511273 [info] : ========== Server start ==========
+2024-09-29 20:31:35.086788 [info] : Client[43](127.0.0.1:19612) in, userCount:1
+2024-09-29 20:31:35.087365 [info] : Client[43] in!
+2024-09-29 20:31:35.088959 [info] : Client[44](127.0.0.1:21148) in, userCount:2
+2024-09-29 20:31:35.089273 [info] : Client[44] in!
+2024-09-29 20:31:35.348621 [info] : Client[45](127.0.0.1:25244) in, userCount:3

@@ -1,0 +1,196 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/LimoTinyWebserver"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/limo/limoTinyWebserver/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/limo/limoTinyWebserver/include/server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/limo/limoTinyWebserver/include/http"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/limo/limoTinyWebserver/include/log"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/limo/limoTinyWebserver/include/buffer"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/limo/limoTinyWebserver/include/pool"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/limo/limoTinyWebserver/include/timer"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "log::@c50f4de1a1e2d0ee20d5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "buffer::@1617a6d482f49dd99a3b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "http::@8197c89eb9db1dcb42c8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "pool::@20368208ffcfee895e7a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "timer::@c575a30741e610c5d97f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "server::@2804e40980a64c7d7ad1"
+		}
+	],
+	"id" : "LimoTinyWebserver::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib/libserver.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/libhttp.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/libpool.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libmysqlclient.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/libtimer.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/liblog.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/libbuffer.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "LimoTinyWebserver",
+	"nameOnDisk" : "LimoTinyWebserver",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/limo/limoTinyWebserver/build",
+  "command": "/usr/bin/g++   -I/home/limo/limoTinyWebserver/include -I/home/limo/limoTinyWebserver/include/server -I/home/limo/limoTinyWebserver/include/http -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer -I/home/limo/limoTinyWebserver/include/pool -I/home/limo/limoTinyWebserver/include/timer  -g   -o CMakeFiles/LimoTinyWebserver.dir/main.cpp.o -c /home/limo/limoTinyWebserver/main.cpp",
+  "file": "/home/limo/limoTinyWebserver/main.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/log",
+  "command": "/usr/bin/g++   -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer  -g   -o CMakeFiles/log.dir/log.cpp.o -c /home/limo/limoTinyWebserver/src/log/log.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/log/log.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/buffer",
+  "command": "/usr/bin/g++   -I/home/limo/limoTinyWebserver/include/buffer  -g   -o CMakeFiles/buffer.dir/buffer.cpp.o -c /home/limo/limoTinyWebserver/src/buffer/buffer.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/buffer/buffer.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/http",
+  "command": "/usr/bin/g++   -I/usr/include/mysql -I/home/limo/limoTinyWebserver/include/http -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer -I/home/limo/limoTinyWebserver/include/pool  -g   -o CMakeFiles/http.dir/httpconn.cpp.o -c /home/limo/limoTinyWebserver/src/http/httpconn.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/http/httpconn.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/http",
+  "command": "/usr/bin/g++   -I/usr/include/mysql -I/home/limo/limoTinyWebserver/include/http -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer -I/home/limo/limoTinyWebserver/include/pool  -g   -o CMakeFiles/http.dir/httprequest.cpp.o -c /home/limo/limoTinyWebserver/src/http/httprequest.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/http/httprequest.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/http",
+  "command": "/usr/bin/g++   -I/usr/include/mysql -I/home/limo/limoTinyWebserver/include/http -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer -I/home/limo/limoTinyWebserver/include/pool  -g   -o CMakeFiles/http.dir/httpresponse.cpp.o -c /home/limo/limoTinyWebserver/src/http/httpresponse.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/http/httpresponse.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/pool",
+  "command": "/usr/bin/g++   -I/home/limo/limoTinyWebserver/include/pool -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer  -g   -o CMakeFiles/pool.dir/sqlconnpool.cpp.o -c /home/limo/limoTinyWebserver/src/pool/sqlconnpool.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/pool/sqlconnpool.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/timer",
+  "command": "/usr/bin/g++   -I/home/limo/limoTinyWebserver/include/timer -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer  -g   -o CMakeFiles/timer.dir/heaptimer.cpp.o -c /home/limo/limoTinyWebserver/src/timer/heaptimer.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/timer/heaptimer.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/server",
+  "command": "/usr/bin/g++   -I/home/limo/limoTinyWebserver/include/server -I/home/limo/limoTinyWebserver/include/http -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer -I/home/limo/limoTinyWebserver/include/pool -I/home/limo/limoTinyWebserver/include/timer  -g   -o CMakeFiles/server.dir/epoller.cpp.o -c /home/limo/limoTinyWebserver/src/server/epoller.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/server/epoller.cpp"
+},
+{
+  "directory": "/home/limo/limoTinyWebserver/build/src/server",
+  "command": "/usr/bin/g++   -I/home/limo/limoTinyWebserver/include/server -I/home/limo/limoTinyWebserver/include/http -I/home/limo/limoTinyWebserver/include/log -I/home/limo/limoTinyWebserver/include/buffer -I/home/limo/limoTinyWebserver/include/pool -I/home/limo/limoTinyWebserver/include/timer  -g   -o CMakeFiles/server.dir/webserver.cpp.o -c /home/limo/limoTinyWebserver/src/server/webserver.cpp",
+  "file": "/home/limo/limoTinyWebserver/src/server/webserver.cpp"
+}
+]

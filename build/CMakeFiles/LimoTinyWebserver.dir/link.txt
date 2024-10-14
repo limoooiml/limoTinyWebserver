@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/LimoTinyWebserver.dir/main.cpp.o  -o bin/LimoTinyWebserver  lib/libserver.a lib/libhttp.a lib/libpool.a -lpthread /usr/lib/x86_64-linux-gnu/libmysqlclient.so lib/libtimer.a lib/liblog.a lib/libbuffer.a 

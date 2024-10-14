@@ -1,0 +1,199 @@
+2024-10-11 12:10:14.157445 [info] : ========== Server init ==========
+2024-10-11 12:10:14.157465 [info] : Listen Mode: ET, OpenConn Mode: LT
+2024-10-11 12:10:14.157468 [info] : LogSys level: 0
+2024-10-11 12:10:14.157470 [info] : srcDir: (null)
+2024-10-11 12:10:14.157471 [info] : SqlConnPool num: 32, ThreadPool num: 24
+2024-10-11 12:10:14.207335 [info] : Server port:1316
+2024-10-11 12:10:14.207396 [info] : ========== Server start ==========
+2024-10-11 12:10:17.358124 [info] : Client[42](127.0.0.1:11425) in, userCount:1
+2024-10-11 12:10:17.358215 [info] : Client[42] in!
+2024-10-11 12:10:17.358384 [info] : Client[43](127.0.0.1:14497) in, userCount:2
+2024-10-11 12:10:17.358431 [info] : Client[43] in!
+2024-10-11 12:10:17.360441 [debug]: [GET], [/index.html], [1.1]
+2024-10-11 12:10:17.360554 [debug]: /index.html
+2024-10-11 12:10:17.360662 [debug]: file path /home/limo/limoTinyWebserver/resources//index.html
+2024-10-11 12:10:17.360949 [debug]: filesize:3061, 2  to 3183
+2024-10-11 12:10:17.411462 [debug]: [GET], [/css/animate.css], [1.1]
+2024-10-11 12:10:17.411558 [debug]: /css/animate.css
+2024-10-11 12:10:17.411607 [debug]: file path /home/limo/limoTinyWebserver/resources//css/animate.css
+2024-10-11 12:10:17.411576 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-10-11 12:10:17.411696 [debug]: /css/bootstrap.min.css
+2024-10-11 12:10:17.411763 [debug]: file path /home/limo/limoTinyWebserver/resources//css/bootstrap.min.css
+2024-10-11 12:10:17.411988 [debug]: filesize:72922, 2  to 73045
+2024-10-11 12:10:17.412310 [debug]: filesize:121260, 2  to 121384
+2024-10-11 12:10:17.415058 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-10-11 12:10:17.415176 [debug]: /css/magnific-popup.css
+2024-10-11 12:10:17.415274 [debug]: file path /home/limo/limoTinyWebserver/resources//css/magnific-popup.css
+2024-10-11 12:10:17.415775 [debug]: filesize:6951, 2  to 7073
+2024-10-11 12:10:17.415962 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-10-11 12:10:17.416062 [debug]: /css/font-awesome.min.css
+2024-10-11 12:10:17.416163 [debug]: file path /home/limo/limoTinyWebserver/resources//css/font-awesome.min.css
+2024-10-11 12:10:17.416597 [debug]: filesize:27392, 2  to 27515
+2024-10-11 12:10:17.419472 [debug]: [GET], [/css/style.css], [1.1]
+2024-10-11 12:10:17.419582 [debug]: /css/style.css
+2024-10-11 12:10:17.419633 [debug]: file path /home/limo/limoTinyWebserver/resources//css/style.css
+2024-10-11 12:10:17.420002 [debug]: filesize:9807, 2  to 9929
+2024-10-11 12:10:17.420158 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-10-11 12:10:17.420273 [debug]: /images/profile-image.jpg
+2024-10-11 12:10:17.420343 [debug]: file path /home/limo/limoTinyWebserver/resources//images/profile-image.jpg
+2024-10-11 12:10:17.420643 [debug]: filesize:12413, 2  to 12537
+2024-10-11 12:10:17.423646 [debug]: [GET], [/js/jquery.js], [1.1]
+2024-10-11 12:10:17.423819 [debug]: /js/jquery.js
+2024-10-11 12:10:17.423957 [debug]: file path /home/limo/limoTinyWebserver/resources//js/jquery.js
+2024-10-11 12:10:17.424685 [debug]: filesize:85658, 2  to 85788
+2024-10-11 12:10:17.442786 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-10-11 12:10:17.442877 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-10-11 12:10:17.443049 [debug]: /js/bootstrap.min.js
+2024-10-11 12:10:17.443120 [debug]: /js/smoothscroll.js
+2024-10-11 12:10:17.443209 [debug]: file path /home/limo/limoTinyWebserver/resources//js/bootstrap.min.js
+2024-10-11 12:10:17.443277 [debug]: file path /home/limo/limoTinyWebserver/resources//js/smoothscroll.js
+2024-10-11 12:10:17.443817 [debug]: filesize:4474, 2  to 4603
+2024-10-11 12:10:17.443874 [debug]: filesize:36868, 2  to 36998
+2024-10-11 12:10:17.448036 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-10-11 12:10:17.448124 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-10-11 12:10:17.448200 [debug]: /js/jquery.magnific-popup.min.js
+2024-10-11 12:10:17.448260 [debug]: /js/magnific-popup-options.js
+2024-10-11 12:10:17.448381 [debug]: file path /home/limo/limoTinyWebserver/resources//js/jquery.magnific-popup.min.js
+2024-10-11 12:10:17.448464 [debug]: file path /home/limo/limoTinyWebserver/resources//js/magnific-popup-options.js
+2024-10-11 12:10:17.449065 [debug]: filesize:1069, 2  to 1198
+2024-10-11 12:10:17.449065 [debug]: filesize:20932, 2  to 21062
+2024-10-11 12:10:17.453839 [debug]: [GET], [/js/wow.min.js], [1.1]
+2024-10-11 12:10:17.453999 [debug]: /js/wow.min.js
+2024-10-11 12:10:17.454129 [debug]: file path /home/limo/limoTinyWebserver/resources//js/wow.min.js
+2024-10-11 12:10:17.454279 [debug]: [GET], [/js/custom.js], [1.1]
+2024-10-11 12:10:17.454357 [debug]: /js/custom.js
+2024-10-11 12:10:17.454422 [debug]: file path /home/limo/limoTinyWebserver/resources//js/custom.js
+2024-10-11 12:10:17.454606 [debug]: filesize:7082, 2  to 7211
+2024-10-11 12:10:17.454632 [debug]: filesize:1047, 2  to 1176
+2024-10-11 12:10:17.620642 [info] : Client[44](127.0.0.1:17057) in, userCount:3
+2024-10-11 12:10:17.620719 [info] : Client[44] in!
+2024-10-11 12:10:17.714792 [info] : Client[45](127.0.0.1:21153) in, userCount:4
+2024-10-11 12:10:17.714945 [info] : Client[45] in!
+2024-10-11 12:10:17.716054 [info] : Client[46](127.0.0.1:24737) in, userCount:5
+2024-10-11 12:10:17.716125 [info] : Client[46] in!
+2024-10-11 12:10:17.717166 [info] : Client[47](127.0.0.1:28833) in, userCount:6
+2024-10-11 12:10:17.717233 [info] : Client[47] in!
+2024-10-11 12:10:20.397020 [debug]: [GET], [/login.html], [1.1]
+2024-10-11 12:10:20.397073 [debug]: /login.html
+2024-10-11 12:10:20.397103 [debug]: file path /home/limo/limoTinyWebserver/resources//login.html
+2024-10-11 12:10:20.397403 [debug]: filesize:3298, 2  to 3420
+2024-10-11 12:10:20.447525 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-10-11 12:10:20.447645 [debug]: /css/bootstrap.min.css
+2024-10-11 12:10:20.447688 [debug]: file path /home/limo/limoTinyWebserver/resources//css/bootstrap.min.css
+2024-10-11 12:10:20.447726 [debug]: filesize:121260, 2  to 121384
+2024-10-11 12:10:20.449174 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-10-11 12:10:20.449216 [debug]: /css/font-awesome.min.css
+2024-10-11 12:10:20.449233 [debug]: file path /home/limo/limoTinyWebserver/resources//css/font-awesome.min.css
+2024-10-11 12:10:20.449254 [debug]: filesize:27392, 2  to 27515
+2024-10-11 12:10:20.449255 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-10-11 12:10:20.449321 [debug]: /css/magnific-popup.css
+2024-10-11 12:10:20.449390 [debug]: [GET], [/css/style.css], [1.1]
+2024-10-11 12:10:20.449407 [debug]: /css/style.css
+2024-10-11 12:10:20.449419 [debug]: file path /home/limo/limoTinyWebserver/resources//css/style.css
+2024-10-11 12:10:20.449425 [debug]: file path /home/limo/limoTinyWebserver/resources//css/magnific-popup.css
+2024-10-11 12:10:20.449427 [debug]: filesize:9807, 2  to 9929
+2024-10-11 12:10:20.449519 [debug]: filesize:6951, 2  to 7073
+2024-10-11 12:10:20.449581 [debug]: [GET], [/js/jquery.js], [1.1]
+2024-10-11 12:10:20.449543 [debug]: [GET], [/css/animate.css], [1.1]
+2024-10-11 12:10:20.449622 [debug]: /js/jquery.js
+2024-10-11 12:10:20.449732 [debug]: /css/animate.css
+2024-10-11 12:10:20.449800 [debug]: file path /home/limo/limoTinyWebserver/resources//js/jquery.js
+2024-10-11 12:10:20.449896 [debug]: file path /home/limo/limoTinyWebserver/resources//css/animate.css
+2024-10-11 12:10:20.449928 [debug]: filesize:72922, 2  to 73045
+2024-10-11 12:10:20.449947 [debug]: filesize:85658, 2  to 85788
+2024-10-11 12:10:20.454103 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-10-11 12:10:20.454113 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-10-11 12:10:20.454266 [debug]: /js/smoothscroll.js
+2024-10-11 12:10:20.454271 [debug]: /js/bootstrap.min.js
+2024-10-11 12:10:20.454382 [debug]: file path /home/limo/limoTinyWebserver/resources//js/smoothscroll.js
+2024-10-11 12:10:20.454382 [debug]: file path /home/limo/limoTinyWebserver/resources//js/bootstrap.min.js
+2024-10-11 12:10:20.454374 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-10-11 12:10:20.454531 [debug]: filesize:36868, 2  to 36998
+2024-10-11 12:10:20.454375 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-10-11 12:10:20.454618 [debug]: filesize:4474, 2  to 4603
+2024-10-11 12:10:20.454719 [debug]: /js/magnific-popup-options.js
+2024-10-11 12:10:20.454715 [debug]: /js/jquery.magnific-popup.min.js
+2024-10-11 12:10:20.454887 [debug]: file path /home/limo/limoTinyWebserver/resources//js/magnific-popup-options.js
+2024-10-11 12:10:20.454953 [debug]: file path /home/limo/limoTinyWebserver/resources//js/jquery.magnific-popup.min.js
+2024-10-11 12:10:20.455012 [debug]: filesize:1069, 2  to 1198
+2024-10-11 12:10:20.455028 [debug]: filesize:20932, 2  to 21062
+2024-10-11 12:10:20.456670 [debug]: [GET], [/js/wow.min.js], [1.1]
+2024-10-11 12:10:20.456712 [debug]: [GET], [/js/custom.js], [1.1]
+2024-10-11 12:10:20.456744 [debug]: /js/wow.min.js
+2024-10-11 12:10:20.456760 [debug]: /js/custom.js
+2024-10-11 12:10:20.456809 [debug]: file path /home/limo/limoTinyWebserver/resources//js/wow.min.js
+2024-10-11 12:10:20.456861 [debug]: file path /home/limo/limoTinyWebserver/resources//js/custom.js
+2024-10-11 12:10:20.456912 [debug]: filesize:7082, 2  to 7211
+2024-10-11 12:10:20.456964 [debug]: filesize:1047, 2  to 1176
+2024-10-11 12:10:22.510249 [debug]: username = limo
+2024-10-11 12:10:22.510346 [debug]: Tag:1
+2024-10-11 12:10:22.510363 [info] : Verify name:limo pwd:123456
+2024-10-11 12:10:22.510369 [debug]: SELECT username, passwd FROM user WHERE username='limo' LIMIT 1
+2024-10-11 12:10:22.573286 [debug]: MYSQL ROW: limo 123456
+2024-10-11 12:10:22.573462 [debug]: UserVerify success!!
+2024-10-11 12:10:22.573536 [debug]: Body:username=limo&password=123456, len:29
+2024-10-11 12:10:22.573626 [debug]: [POST], [/welcome.html], [1.1]
+2024-10-11 12:10:22.573665 [debug]: /welcome.html
+2024-10-11 12:10:22.573711 [debug]: file path /home/limo/limoTinyWebserver/resources//welcome.html
+2024-10-11 12:10:22.574033 [debug]: filesize:3163, 2  to 3285
+2024-10-11 12:10:22.603423 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-10-11 12:10:22.603573 [debug]: /css/bootstrap.min.css
+2024-10-11 12:10:22.603625 [debug]: file path /home/limo/limoTinyWebserver/resources//css/bootstrap.min.css
+2024-10-11 12:10:22.603689 [debug]: filesize:121260, 2  to 121384
+2024-10-11 12:10:22.604761 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-10-11 12:10:22.604902 [debug]: [GET], [/css/animate.css], [1.1]
+2024-10-11 12:10:22.604911 [debug]: /css/font-awesome.min.css
+2024-10-11 12:10:22.605058 [debug]: /css/animate.css
+2024-10-11 12:10:22.605081 [debug]: file path /home/limo/limoTinyWebserver/resources//css/font-awesome.min.css
+2024-10-11 12:10:22.605133 [debug]: file path /home/limo/limoTinyWebserver/resources//css/animate.css
+2024-10-11 12:10:22.605168 [debug]: filesize:27392, 2  to 27515
+2024-10-11 12:10:22.605198 [debug]: filesize:72922, 2  to 73045
+2024-10-11 12:10:22.605224 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-10-11 12:10:22.605230 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-10-11 12:10:22.605240 [debug]: /css/magnific-popup.css
+2024-10-11 12:10:22.605301 [debug]: [GET], [/css/style.css], [1.1]
+2024-10-11 12:10:22.605395 [debug]: /css/style.css
+2024-10-11 12:10:22.605374 [debug]: /images/profile-image.jpg
+2024-10-11 12:10:22.605481 [debug]: file path /home/limo/limoTinyWebserver/resources//css/magnific-popup.css
+2024-10-11 12:10:22.605517 [debug]: filesize:6951, 2  to 7073
+2024-10-11 12:10:22.605626 [debug]: file path /home/limo/limoTinyWebserver/resources//images/profile-image.jpg
+2024-10-11 12:10:22.605638 [debug]: file path /home/limo/limoTinyWebserver/resources//css/style.css
+2024-10-11 12:10:22.605719 [debug]: filesize:9807, 2  to 9929
+2024-10-11 12:10:22.605742 [debug]: filesize:12413, 2  to 12537
+2024-10-11 12:10:22.612927 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-10-11 12:10:22.612961 [debug]: [GET], [/js/jquery.js], [1.1]
+2024-10-11 12:10:22.613079 [debug]: /js/smoothscroll.js
+2024-10-11 12:10:22.613104 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-10-11 12:10:22.613263 [debug]: file path /home/limo/limoTinyWebserver/resources//js/smoothscroll.js
+2024-10-11 12:10:22.613199 [debug]: /js/jquery.js
+2024-10-11 12:10:22.613369 [debug]: /js/jquery.magnific-popup.min.js
+2024-10-11 12:10:22.613380 [debug]: filesize:4474, 2  to 4603
+2024-10-11 12:10:22.613428 [debug]: file path /home/limo/limoTinyWebserver/resources//js/jquery.magnific-popup.min.js
+2024-10-11 12:10:22.613444 [debug]: filesize:20932, 2  to 21062
+2024-10-11 12:10:22.613544 [debug]: file path /home/limo/limoTinyWebserver/resources//js/jquery.js
+2024-10-11 12:10:22.613550 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-10-11 12:10:22.613598 [debug]: /js/bootstrap.min.js
+2024-10-11 12:10:22.613610 [debug]: filesize:85658, 2  to 85788
+2024-10-11 12:10:22.613630 [debug]: file path /home/limo/limoTinyWebserver/resources//js/bootstrap.min.js
+2024-10-11 12:10:22.613691 [debug]: filesize:36868, 2  to 36998
+2024-10-11 12:10:22.613911 [debug]: [GET], [/js/wow.min.js], [1.1]
+2024-10-11 12:10:22.613977 [debug]: /js/wow.min.js
+2024-10-11 12:10:22.614048 [debug]: file path /home/limo/limoTinyWebserver/resources//js/wow.min.js
+2024-10-11 12:10:22.614070 [debug]: filesize:7082, 2  to 7211
+2024-10-11 12:10:22.614499 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-10-11 12:10:22.614617 [debug]: /js/magnific-popup-options.js
+2024-10-11 12:10:22.614680 [debug]: file path /home/limo/limoTinyWebserver/resources//js/magnific-popup-options.js
+2024-10-11 12:10:22.614705 [debug]: filesize:1069, 2  to 1198
+2024-10-11 12:10:22.620078 [debug]: [GET], [/js/custom.js], [1.1]
+2024-10-11 12:10:22.620252 [debug]: /js/custom.js
+2024-10-11 12:10:22.620387 [debug]: file path /home/limo/limoTinyWebserver/resources//js/custom.js
+2024-10-11 12:10:22.620451 [debug]: filesize:1047, 2  to 1176
+2024-10-11 12:11:22.622759 [info] : Client[46] quit!
+2024-10-11 12:11:22.623001 [info] : Client[46](127.0.0.1:24737) quit, UserCount:5
+2024-10-11 12:11:22.623070 [info] : Client[47] quit!
+2024-10-11 12:11:22.623098 [info] : Client[47](127.0.0.1:28833) quit, UserCount:4
+2024-10-11 12:11:22.623104 [info] : Client[44] quit!
+2024-10-11 12:11:22.623131 [info] : Client[44](127.0.0.1:17057) quit, UserCount:3
+2024-10-11 12:11:22.623137 [info] : Client[43] quit!
+2024-10-11 12:11:22.623174 [info] : Client[43](127.0.0.1:14497) quit, UserCount:2
+2024-10-11 12:11:22.623201 [info] : Client[45] quit!
